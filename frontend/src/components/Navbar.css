@@ -109,3 +109,10 @@
     width: 170px;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar-links {
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+}

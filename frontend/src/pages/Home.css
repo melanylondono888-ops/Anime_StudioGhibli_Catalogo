@@ -95,3 +95,11 @@
   font-size: 1.1rem;
   padding: 40px 0;
 }
+
+/* En pantallas medianas y grandes, tarjetas un poco más anchas */
+@media (min-width: 640px) {
+  .movies-grid, .anime-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+  }
+}
